@@ -61,7 +61,7 @@
     (function () {
 
         var section, list, items, orderedItems, scores, pagesContainer, orderContainer,
-            lastActive, perPage, sortByScore = false;
+            lastActive, perPage, sortByScore = true;
 
         perPage = 5;
 

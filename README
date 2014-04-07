@@ -13,24 +13,43 @@ whatever task you prefer that you think will best reflect your coding skills.
 Tasks
 ========================================
 
-2.  Split the reviews into blocks of 5 and create pagination. Allow the user
+I think two first task will show best my developer skills. I will try to work 
+with them in Data-Driven way
+
+1.  Split the reviews into blocks of 5 and create pagination. Allow the user
     to sort the reviews by review score.
+
+I think this is the most valuable for user. As he already opened this hotel -
+he/she would like to see reviews of other people
+
+2.  Imagine there's a json feed with nearby landmarks. Design the json format
+	and use it to display landmarks on the page.
+
+This one also very valuable as user willing to find something in the area,
+not only this specific hotel
 
 3.  Improve the room table. Some ideas you may consider: allow the user to sort
     the rooms table by occupancy or price, display a total when the user selects
     a quantity, display additional information about rooms.
 
-1.  Create a photo carousel using the large photos linked from the thumbnails
+This one pretty valuable for users that already want to book room in this hotel
+
+4.  Create a photo carousel using the large photos linked from the thumbnails
 	currently in the page. Some ideas you may consider: include an automatic
 	slideshow mode, add prev/next buttons to manually controll the carousel,
 	add a layer that shows the contents of the images alt text.
 
-4.  Imagine there's a json feed with hotels similar to the current one. Design
+Carousel is good UX but also if it is just list of images - also good.
+Maybe simple lightbox could be good alternative.
+
+5.  Imagine there's a json feed with hotels similar to the current one. Design
 	the json format and use it to display similar hotels on the page.
 
-5.  Imagine there's a json feed with nearby landmarks. Design the json format
-	and use it to display landmarks on the page.
+Similar hotels would be better to combine with landmarks feature and show small preview on the map.
 
 6.  Improve the facilities block.
 
+Would be better to show icons of facilities. Order them by valuability for customers. and above the description
+
 7.  Improve the hotel page however you see fit.
+
