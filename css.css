@@ -142,12 +142,31 @@ h2 {
     float: right;
 }
 
+.orderable {
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px dashed #fff;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.orderable.active_up:after {
+    content: '\25B4';
+}
+
+.orderable.active_down:after {
+    content: '\25be';
+}
+
 
 /* rooms table */
 
 .button {
 	background-color: #0896ff;
-	border-radius: 2px solid #fff;
+	border-radius: 2px;
 	border: 2px solid #fff;
 	padding: 5px 15px;
 	color: #fff;
@@ -182,12 +201,12 @@ h2 {
 
 .rooms_table .room_occupancy {
 	text-align: center;
-	width: 100px;
+	width: 120px;
 }
 
 .rooms_table .room_price {
 	text-align: right;
-	width: 100px;
+	width: 120px;
 }
 
 .rooms_table .room_quantity {
